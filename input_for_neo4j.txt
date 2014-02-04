@@ -1,0 +1,1338 @@
+BEGIN
+create n={name='!',properties='(67,29),(49,19),(16,19),(64,18),'};
+create n={name='$249',properties='(7,45),'};
+create n={name='$349',properties='(7,51),'};
+create n={name='.',properties='(48,11),(17,13),(21,10),(4,9),(57,20),(39,15),(38,12),(63,7),(31,9),(20,15),(22,8),(53,15),(18,18),(40,13),(14,20),(37,8),(52,11),(35,22),(41,11),(19,20),(36,52),(60,9),(13,22),(61,11),(42,18),(66,10),(24,10),(30,13),(43,10),(12,13),(51,20),(11,37),(25,12),(29,26),(5,27),(33,33),(2,10),(56,18),(1,10),(44,21),(50,28),(10,27),(55,22),(6,12),(34,56),(69,28),(45,11),(26,18),(62,14),(9,12),(58,36),(59,7),(46,22),(8,12),(54,19),(7,57),(47,9),(27,22),(28,11),(32,8),'};
+create n={name='1',properties='(66,9),'};
+create n={name='2gb',properties='(46,12),'};
+create n={name='2nd',properties='(46,10),(54,16),(42,15),(41,8),'};
+create n={name='30GB',properties='(7,48),'};
+create n={name='3rd',properties='(50,13),'};
+create n={name='4',properties='(38,4),(36,43),'};
+create n={name='5',properties='(36,45),'};
+create n={name='5G',properties='(7,1),'};
+create n={name='5GB',properties='(8,1),'};
+create n={name='5th',properties='(50,17),(54,9),'};
+create n={name='6',properties='(8,11),(16,11),'};
+create n={name='8',properties='(48,1),'};
+create n={name='80GB',properties='(7,55),'};
+create n={name='8gb',properties='(1,9),'};
+create n={name='APPLES',properties='(45,9),'};
+create n={name='Also,',properties='(13,1),'};
+create n={name='Apple',properties='(17,9),(18,12),'};
+create n={name='Apple's',properties='(19,3),'};
+create n={name='BATTERY',properties='(45,2),'};
+create n={name='Battery',properties='(39,1),(25,1),(67,2),(4,1),(46,1),(63,1),(24,1),(59,1),(10,1),(26,1),(32,1),'};
+create n={name='But',properties='(62,1),'};
+create n={name='Christmas',properties='(24,8),(26,17),'};
+create n={name='Compact,',properties='(67,5),'};
+create n={name='DONT',properties='(45,6),'};
+create n={name='Decent',properties='(64,4),'};
+create n={name='Def',properties='(49,13),'};
+create n={name='Definitely',properties='(10,5),'};
+create n={name='EASY,',properties='(45,4),'};
+create n={name='Easy',properties='(58,1),(67,6),'};
+create n={name='Gen',properties='(41,9),'};
+create n={name='Great',properties='(58,4),(67,12),'};
+create n={name='I',properties='(18,7),(19,1),(33,13),(5,1),(1,4),(22,4),(4,5),(2,1),(9,5),(50,8),(34,49),(44,3),(16,6),(46,3),(18,1),(69,1),(10,13),(34,3),(10,21),(54,5),(45,5),(51,1),(58,13),(11,17),(29,19),'};
+create n={name='I'm',properties='(58,23),(5,11),'};
+create n={name='I've',properties='(34,15),(34,29),'};
+create n={name='IT',properties='(16,18),'};
+create n={name='It',properties='(28,1),'};
+create n={name='It's',properties='(12,6),'};
+create n={name='LCD',properties='(39,7),'};
+create n={name='LIBRARY',properties='(45,10),'};
+create n={name='LIFE,SCRATCHES',properties='(45,3),'};
+create n={name='LIKE',properties='(45,7),'};
+create n={name='LOVES',properties='(16,17),'};
+create n={name='Life',properties='(46,2),(26,2),'};
+create n={name='Life,',properties='(67,3),'};
+create n={name='Long',properties='(67,1),(40,1),(64,1),'};
+create n={name='Lots',properties='(67,14),'};
+create n={name='Make',properties='(20,1),'};
+create n={name='My',properties='(68,1),(42,1),'};
+create n={name='Nano',properties='(56,3),(41,10),'};
+create n={name='One',properties='(34,1),'};
+create n={name='Overall,',properties='(53,1),'};
+create n={name='Pedometer',properties='(21,2),'};
+create n={name='Performance,',properties='(67,11),'};
+create n={name='Price',properties='(17,1),'};
+create n={name='Product',properties='(26,3),'};
+create n={name='Received',properties='(24,5),'};
+create n={name='Reliable',properties='(67,10),'};
+create n={name='SHORT',properties='(45,1),'};
+create n={name='Scratches',properties='(60,1),'};
+create n={name='Set',properties='(67,8),'};
+create n={name='Shorter',properties='(33,1),'};
+create n={name='Sleek',properties='(67,4),'};
+create n={name='So,',properties='(52,1),'};
+create n={name='Sound,',properties='(67,13),'};
+create n={name='Standard',properties='(49,12),'};
+create n={name='Storage',properties='(67,16),'};
+create n={name='THE',properties='(45,8),'};
+create n={name='The',properties='(7,18),(56,1),(17,4),(61,1),(30,1),(41,1),(43,1),(11,1),(65,1),(47,1),(21,1),'};
+create n={name='Then',properties='(66,1),'};
+create n={name='This',properties='(29,9),'};
+create n={name='Thought',properties='(29,1),'};
+create n={name='To',properties='(67,7),'};
+create n={name='Up,',properties='(67,9),'};
+create n={name='Very',properties='(57,1),'};
+create n={name='Watching',properties='(31,1),'};
+create n={name='When',properties='(14,1),(33,12),'};
+create n={name='a',properties='(14,8),(24,7),(11,14),(11,5),(11,30),(62,5),(56,5),(7,3),(48,6),(21,7),(69,6),(38,9),(34,53),(44,8),(10,17),(10,9),(54,12),(19,17),(36,28),(40,9),(58,33),(27,11),(52,9),(27,16),(69,14),(33,17),(7,25),(36,48),(64,8),'};
+create n={name='able',properties='(7,12),'};
+create n={name='about',properties='(36,42),(66,8),'};
+create n={name='accurate,',properties='(21,5),'};
+create n={name='addition',properties='(58,35),'};
+create n={name='advertised',properties='(26,7),'};
+create n={name='after',properties='(5,16),'};
+create n={name='all',properties='(68,15),(56,14),(36,21),(50,5),'};
+create n={name='almost',properties='(53,2),'};
+create n={name='also',properties='(55,4),'};
+create n={name='always',properties='(55,19),'};
+create n={name='amazing',properties='(12,12),'};
+create n={name='amazing,',properties='(10,4),'};
+create n={name='an',properties='(1,8),(69,9),(50,10),(35,6),'};
+create n={name='and',properties='(28,6),(34,20),(69,26),(7,50),(7,28),(8,2),(27,18),(67,22),(7,10),(50,15),(60,3),(26,8),(11,26),(44,11),(35,10),(30,5),(58,22),(43,5),(35,19),(36,6),(64,14),(40,4),(65,6),(16,15),(39,5),(39,11),'};
+create n={name='any',properties='(31,2),'};
+create n={name='appealing',properties='(7,37),'};
+create n={name='apple',properties='(50,11),'};
+create n={name='as',properties='(34,26),(54,11),(32,6),(43,8),(44,7),(61,7),(44,19),(26,6),(29,18),(50,23),(50,21),(69,5),(34,28),(24,6),(61,5),(42,10),(42,12),'};
+create n={name='aspect',properties='(7,38),'};
+create n={name='at',properties='(68,14),'};
+create n={name='attention',properties='(33,28),'};
+create n={name='audio',properties='(33,31),'};
+create n={name='auto',properties='(44,18),'};
+create n={name='awsome',properties='(35,7),(36,8),'};
+create n={name='bad',properties='(63,6),(47,3),'};
+create n={name='bad,',properties='(63,4),'};
+create n={name='basically',properties='(17,6),'};
+create n={name='battery',properties='(14,11),(69,25),(2,8),(3,2),(54,1),(53,13),(5,6),(55,13),(52,3),(51,10),(50,1),(7,31),(49,11),(56,8),(68,10),(48,9),(8,5),(47,7),(11,2),(44,14),(12,4),(13,3),(43,2),(42,7),(66,5),(41,2),(57,14),(15,5),(1,2),(16,4),(40,2),(65,8),(17,2),(18,17),(38,2),(37,2),(58,7),(20,7),(64,2),(21,8),(22,2),(36,17),(23,8),(35,2),(27,2),(34,43),(28,9),(29,5),(34,12),(60,5),(30,2),(62,3),(31,6),(61,2),(33,2),'};
+create n={name='battery,',properties='(19,11),(9,1),'};
+create n={name='battery,scratch',properties='(6,10),'};
+create n={name='be',properties='(61,10),(59,5),(29,23),(13,21),'};
+create n={name='because',properties='(46,15),(10,20),'};
+create n={name='becuase',properties='(50,3),'};
+create n={name='before',properties='(29,7),'};
+create n={name='beginners',properties='(27,7),'};
+create n={name='better',properties='(32,5),(8,4),(7,29),'};
+create n={name='big',properties='(52,8),(36,49),'};
+create n={name='birthday',properties='(44,9),'};
+create n={name='bit',properties='(62,7),'};
+create n={name='bought',properties='(67,17),(46,4),(44,4),(69,2),'};
+create n={name='brighter',properties='(7,26),'};
+create n={name='built',properties='(27,19),'};
+create n={name='burned',properties='(58,31),'};
+create n={name='but',properties='(11,16),(69,17),(62,9),(49,16),(7,33),(13,11),(34,14),(25,5),(12,10),(36,30),(29,14),(55,7),(21,6),'};
+create n={name='button',properties='(5,21),'};
+create n={name='calories',properties='(58,30),'};
+create n={name='cam',properties='(49,5),'};
+create n={name='camera',properties='(65,3),(27,17),(33,7),(64,5),'};
+create n={name='can',properties='(58,14),'};
+create n={name='car,',properties='(6,4),'};
+create n={name='case',properties='(10,10),'};
+create n={name='caught',properties='(33,26),'};
+create n={name='changing',properties='(37,6),'};
+create n={name='charge',properties='(34,34),'};
+create n={name='charged',properties='(34,17),'};
+create n={name='charger',properties='(44,15),'};
+create n={name='charges',properties='(44,2),'};
+create n={name='christmas',properties='(14,19),(35,8),'};
+create n={name='classic,',properties='(69,11),'};
+create n={name='clear',properties='(39,10),'};
+create n={name='cold',properties='(30,11),'};
+create n={name='color',properties='(9,8),'};
+create n={name='complaint',properties='(68,3),(42,3),'};
+create n={name='computer',properties='(34,32),(34,25),'};
+create n={name='constantly',properties='(36,35),'};
+create n={name='control',properties='(5,20),'};
+create n={name='convenient',properties='(20,10),'};
+create n={name='day',properties='(36,22),(51,17),'};
+create n={name='deal',properties='(36,50),(52,10),'};
+create n={name='device,',properties='(64,10),'};
+create n={name='die',properties='(30,8),'};
+create n={name='dies',properties='(41,3),(30,3),'};
+create n={name='directions',properties='(40,6),'};
+create n={name='display',properties='(39,8),'};
+create n={name='do',properties='(18,2),(36,38),'};
+create n={name='doen't',properties='(34,33),'};
+create n={name='does',properties='(60,6),(17,7),(17,12),'};
+create n={name='doesn't',properties='(68,11),(42,8),(12,1),(11,3),'};
+create n={name='doing',properties='(11,35),'};
+create n={name='don't',properties='(4,6),'};
+create n={name='dont',properties='(36,13),(36,25),'};
+create n={name='down',properties='(5,26),'};
+create n={name='drain',properties='(5,9),'};
+create n={name='drains',properties='(55,11),(4,2),(31,4),'};
+create n={name='due',properties='(56,12),'};
+create n={name='dummie',properties='(9,3),'};
+create n={name='easily',properties='(60,2),'};
+create n={name='easily,',properties='(16,2),'};
+create n={name='easy',properties='(64,15),(39,12),(40,5),(35,16),(57,2),(28,3),'};
+create n={name='either',properties='(34,37),'};
+create n={name='endurance',properties='(29,16),'};
+create n={name='enough',properties='(13,8),'};
+create n={name='especially',properties='(11,8),'};
+create n={name='even',properties='(4,3),(5,15),'};
+create n={name='eventually',properties='(18,14),'};
+create n={name='exact',properties='(14,16),'};
+create n={name='exactly',properties='(26,5),'};
+create n={name='excellent',properties='(64,11),(39,4),'};
+create n={name='except',properties='(2,5),'};
+create n={name='exchange',properties='(19,14),'};
+create n={name='exercise',properties='(58,25),'};
+create n={name='expect',properties='(29,20),'};
+create n={name='fact',properties='(58,11),'};
+create n={name='far',properties='(34,27),'};
+create n={name='faster',properties='(41,4),'};
+create n={name='favorite',properties='(58,19),(26,13),'};
+create n={name='feature',properties='(21,3),'};
+create n={name='features',properties='(56,17),(50,7),'};
+create n={name='filled',properties='(46,17),'};
+create n={name='find',properties='(66,3),'};
+create n={name='first',properties='(36,4),(29,12),(12,8),(33,23),(33,14),'};
+create n={name='for',properties='(7,52),(8,8),(51,13),(7,46),(2,6),(10,11),(67,19),(69,8),(54,14),(49,6),(44,16),(19,16),(13,9),(64,6),(14,18),(38,8),(16,9),'};
+create n={name='found',properties='(51,4),'};
+create n={name='freezes',properties='(54,3),'};
+create n={name='from',properties='(10,24),(1,7),'};
+create n={name='full',properties='(51,16),'};
+create n={name='gains',properties='(7,20),'};
+create n={name='gen',properties='(54,17),(42,16),(46,11),(54,10),'};
+create n={name='generation',properties='(50,14),'};
+create n={name='genteration',properties='(50,18),'};
+create n={name='get',properties='(10,16),(10,8),(18,11),'};
+create n={name='gift',properties='(26,14),(44,10),(24,9),'};
+create n={name='good',properties='(62,13),(23,1),(59,6),(6,7),(11,31),(34,9),(50,22),(15,1),'};
+create n={name='got',properties='(14,14),(54,7),'};
+create n={name='great',properties='(28,8),(69,15),(35,21),(6,1),(58,34),(38,6),(27,12),(38,10),(65,5),(57,12),(43,4),'};
+create n={name='great,',properties='(25,4),'};
+create n={name='greater',properties='(34,47),'};
+create n={name='gym',properties='(67,21),'};
+create n={name='had',properties='(50,9),'};
+create n={name='has',properties='(28,7),(56,4),(69,19),'};
+create n={name='have',properties='(51,2),(55,16),(29,3),(18,9),'};
+create n={name='he',properties='(16,16),'};
+create n={name='highly',properties='(25,10),'};
+create n={name='hours',properties='(36,46),(38,5),(48,2),'};
+create n={name='huge',properties='(7,54),'};
+create n={name='i',properties='(36,12),(14,13),(46,16),(36,37),(35,11),'};
+create n={name='i'm',properties='(13,12),'};
+create n={name='iPOD',properties='(29,13),'};
+create n={name='iPod',properties='(14,17),(17,5),(9,11),(10,19),(20,14),(19,19),(7,19),'};
+create n={name='iPod,',properties='(7,6),(33,21),(33,6),'};
+create n={name='iPods',properties='(34,40),'};
+create n={name='idea',properties='(19,4),'};
+create n={name='if',properties='(36,31),(34,51),(4,4),(55,14),(36,23),(49,2),(29,15),'};
+create n={name='improvements,',properties='(7,23),'};
+create n={name='in',properties='(30,10),(55,18),(58,16),(6,2),(27,20),(33,9),'};
+create n={name='including',properties='(7,24),'};
+create n={name='inconvenient',properties='(33,10),(20,3),'};
+create n={name='incremental',properties='(7,22),'};
+create n={name='instead',properties='(19,7),'};
+create n={name='into',properties='(58,24),'};
+create n={name='ipod',properties='(44,6),(50,12),(36,5),(46,6),(27,9),(46,13),(2,4),'};
+create n={name='ipod,',properties='(12,9),'};
+create n={name='is',properties='(58,32),(27,10),(62,11),(43,3),(39,3),(52,5),(26,4),(61,3),(24,3),(33,8),(36,2),(32,3),(42,4),(50,19),(36,15),(39,9),(55,3),(7,39),(62,4),(68,7),(34,45),(48,5),(29,17),(47,5),(29,10),(28,2),(63,3),(19,5),'};
+create n={name='isn't',properties='(10,3),(25,3),'};
+create n={name='it',properties='(36,19),(49,9),(37,7),(35,13),(36,27),(19,15),(11,27),(55,10),(13,17),(36,34),(36,39),(4,8),(18,5),(20,9),(67,23),(62,10),(17,11),(55,17),(61,8),(34,18),(14,6),(10,12),(20,2),(67,18),'};
+create n={name='it's',properties='(69,21),(12,11),(47,6),'};
+create n={name='it,',properties='(5,14),'};
+create n={name='item',properties='(27,14),'};
+create n={name='its',properties='(7,14),(35,14),(36,7),'};
+create n={name='just',properties='(67,25),(13,18),(54,6),(53,4),(11,18),'};
+create n={name='keep',properties='(37,5),'};
+create n={name='kills',properties='(49,10),'};
+create n={name='kind',properties='(27,5),'};
+create n={name='last',properties='(42,9),(51,12),(60,8),(29,25),(68,12),(36,41),(11,4),'};
+create n={name='lasts',properties='(38,3),(11,28),(36,20),(57,15),(66,7),'};
+create n={name='length',properties='(11,32),'};
+create n={name='less',properties='(48,4),'};
+create n={name='lies',properties='(7,2),'};
+create n={name='life',properties='(35,3),(25,2),(63,2),(24,2),(36,18),(22,3),(1,3),(34,44),(39,2),(16,5),(40,3),(59,2),(14,12),(28,10),(13,4),(12,5),(29,6),(10,2),(8,6),(47,8),(48,10),(56,9),(51,11),(32,2),(53,14),(33,3),(2,9),'};
+create n={name='life,',properties='(58,8),(54,2),(7,32),(50,2),(34,13),(64,3),(27,3),'};
+create n={name='life,have',properties='(37,3),'};
+create n={name='light',properties='(23,5),(15,3),'};
+create n={name='light,',properties='(6,5),'};
+create n={name='lightweight,',properties='(57,8),'};
+create n={name='like',properties='(55,9),(36,14),(18,4),(22,5),(36,36),'};
+create n={name='likely',properties='(56,11),'};
+create n={name='listen',properties='(11,19),'};
+create n={name='listened',properties='(33,15),'};
+create n={name='little',properties='(62,6),'};
+create n={name='long',properties='(13,7),(58,6),(6,9),(15,4),(42,11),(11,6),(49,7),(68,13),(3,1),(23,7),'};
+create n={name='longer',properties='(29,4),(57,17),'};
+create n={name='lot',properties='(14,9),(36,29),'};
+create n={name='love',properties='(2,2),(9,6),(58,9),(57,5),(35,12),'};
+create n={name='make',properties='(40,7),(20,8),'};
+create n={name='many',properties='(7,21),(7,7),'};
+create n={name='mature',properties='(7,5),'};
+create n={name='me',properties='(11,29),(13,20),'};
+create n={name='me,',properties='(13,10),'};
+create n={name='memory',properties='(46,20),'};
+create n={name='might',properties='(13,19),'};
+create n={name='mini',properties='(10,26),'};
+create n={name='mode',properties='(55,21),'};
+create n={name='more',properties='(7,4),(48,7),(7,11),'};
+create n={name='most',properties='(7,36),(11,22),(56,10),'};
+create n={name='moved',properties='(1,5),'};
+create n={name='much',properties='(57,16),(32,4),'};
+create n={name='music',properties='(11,21),'};
+create n={name='my',properties='(33,27),(34,39),(58,18),(36,3),(46,9),(12,7),(29,11),(26,11),(54,15),(34,31),(42,13),(29,24),(16,10),(41,6),'};
+create n={name='nano',properties='(54,18),(69,4),(42,17),'};
+create n={name='nano,',properties='(46,14),'};
+create n={name='need',properties='(10,6),'};
+create n={name='new',properties='(13,13),(56,16),(27,13),(10,18),(56,2),'};
+create n={name='newer',properties='(19,18),'};
+create n={name='nice',properties='(57,10),(55,6),'};
+create n={name='not',properties='(61,4),(34,7),(60,7),(51,3),(52,6),(9,2),(5,12),(27,4),(29,22),(18,3),(36,47),'};
+create n={name='noticed',properties='(34,4),'};
+create n={name='numbering',properties='(50,25),'};
+create n={name='of',properties='(67,15),(53,12),(14,10),(34,38),(50,4),(11,23),(11,33),(9,9),(51,18),(7,44),(19,8),'};
+create n={name='off',properties='(5,23),'};
+create n={name='old',properties='(33,5),(16,13),(7,17),'};
+create n={name='older',properties='(69,10),'};
+create n={name='on',properties='(34,23),(55,20),(33,19),(69,23),'};
+create n={name='once',properties='(34,19),'};
+create n={name='one',properties='(51,15),(51,5),'};
+create n={name='one's',properties='(46,19),'};
+create n={name='one,',properties='(7,15),'};
+create n={name='only',properties='(68,2),(5,2),(36,10),(36,40),(66,6),(34,16),(47,2),(51,14),(42,2),'};
+create n={name='or',properties='(11,12),(53,7),(48,3),(36,44),'};
+create n={name='other',properties='(25,6),(51,7),'};
+create n={name='out',properties='(53,6),(53,11),'};
+create n={name='outlet',properties='(34,55),'};
+create n={name='past',properties='(26,16),'};
+create n={name='pedometer',properties='(55,2),(58,28),'};
+create n={name='pedometer,',properties='(57,7),'};
+create n={name='perfect',properties='(53,3),'};
+create n={name='pictures,',properties='(12,3),'};
+create n={name='points',properties='(7,43),'};
+create n={name='portable',properties='(15,6),(23,6),'};
+create n={name='portable,',properties='(6,6),'};
+create n={name='possibly',properties='(34,46),'};
+create n={name='present',properties='(35,9),'};
+create n={name='previous',properties='(41,7),(42,14),'};
+create n={name='price',properties='(38,11),(7,42),'};
+create n={name='probably',properties='(7,34),(26,10),'};
+create n={name='product',properties='(68,6),(38,7),(22,7),'};
+create n={name='proof',properties='(9,4),'};
+create n={name='purchased',properties='(16,7),(44,12),'};
+create n={name='quality',properties='(23,2),(33,32),(15,2),(64,13),'};
+create n={name='quality,',properties='(6,8),'};
+create n={name='quicker',properties='(30,9),'};
+create n={name='quickly',properties='(31,8),(30,4),'};
+create n={name='radio',properties='(14,5),(58,20),'};
+create n={name='rated',properties='(8,7),'};
+create n={name='real',properties='(63,5),'};
+create n={name='realistic',properties='(48,8),'};
+create n={name='really',properties='(35,15),'};
+create n={name='recharge',properties='(29,8),'};
+create n={name='recommend',properties='(25,11),'};
+create n={name='recording',properties='(11,11),'};
+create n={name='recording,',properties='(49,15),'};
+create n={name='replace',properties='(18,15),(20,12),(46,8),(20,5),'};
+create n={name='replacement',properties='(17,3),(54,13),(69,7),'};
+create n={name='replacing',properties='(19,9),'};
+create n={name='resistant',properties='(3,4),(6,11),(23,4),(15,8),'};
+create n={name='right',properties='(67,27),'};
+create n={name='run',properties='(53,10),'};
+create n={name='says',properties='(17,10),'};
+create n={name='scratch',properties='(3,3),(23,3),(15,7),'};
+create n={name='scratches',properties='(16,1),'};
+create n={name='screen',properties='(43,7),(7,27),(69,27),'};
+create n={name='screen,',properties='(57,11),'};
+create n={name='see',properties='(39,14),'};
+create n={name='seems',properties='(30,6),(55,8),(59,3),(21,4),(5,7),'};
+create n={name='seen',properties='(34,30),'};
+create n={name='sharp',properties='(49,18),'};
+create n={name='shipping',properties='(44,1),'};
+create n={name='shoes',properties='(49,1),'};
+create n={name='short',properties='(1,1),(16,3),(22,1),(24,4),(37,1),(56,7),'};
+create n={name='shortened',properties='(27,1),'};
+create n={name='should',properties='(61,9),'};
+create n={name='shutting',properties='(5,25),'};
+create n={name='sliding',properties='(5,17),'};
+create n={name='small',properties='(64,9),'};
+create n={name='snap',properties='(40,10),'};
+create n={name='so',properties='(34,8),(58,26),(34,41),(13,16),'};
+create n={name='son',properties='(16,14),'};
+create n={name='song',properties='(33,18),'};
+create n={name='sound',properties='(64,12),'};
+create n={name='sound,',properties='(58,5),(57,13),'};
+create n={name='sounds',properties='(35,20),'};
+create n={name='speaker',properties='(27,21),'};
+create n={name='spot',properties='(33,11),'};
+create n={name='stated',properties='(57,19),'};
+create n={name='station,',properties='(58,21),'};
+create n={name='steps',properties='(7,8),'};
+create n={name='still',properties='(49,17),'};
+create n={name='strong',properties='(61,6),'};
+create n={name='such',properties='(64,7),'};
+create n={name='suggest',properties='(50,27),'};
+create n={name='take',properties='(12,2),'};
+create n={name='taken',properties='(69,20),'};
+create n={name='tantalizing',properties='(7,41),'};
+create n={name='than',properties='(51,8),(41,5),(33,4),(25,7),(57,18),(7,13),(34,48),'};
+create n={name='that',properties='(19,6),(58,12),(46,18),(11,36),(13,6),(34,21),(52,7),(68,8),(33,25),(34,5),(42,5),(18,6),'};
+create n={name='that,',properties='(25,8),'};
+create n={name='the',properties='(66,4),(13,2),(14,4),(55,12),(52,2),(69,24),(54,8),(51,9),(50,24),(50,16),(50,6),(5,5),(56,15),(44,17),(44,13),(5,18),(57,6),(43,6),(42,6),(39,6),(38,1),(58,10),(6,3),(36,16),(36,9),(2,7),(69,3),(58,27),(35,1),(34,42),(7,35),(7,40),(34,24),(34,11),(68,9),(60,4),(33,30),(7,47),(33,22),(7,53),(31,5),(8,3),(62,2),(67,26),(55,1),(9,7),(67,20),(22,6),(20,13),(20,6),(10,25),(19,10),(18,16),(11,24),(65,7),'};
+create n={name='thin,',properties='(57,9),'};
+create n={name='thing',properties='(51,6),(36,11),(34,2),(52,4),(47,4),(33,24),'};
+create n={name='think',properties='(19,2),'};
+create n={name='this',properties='(35,4),(26,15),(33,20),(36,1),(2,3),(40,8),(44,5),(46,5),(14,15),(68,5),(13,15),(27,8),(9,10),(16,8),'};
+create n={name='though',properties='(36,51),'};
+create n={name='thought',properties='(34,50),'};
+create n={name='time',properties='(11,34),(11,7),(69,18),(11,25),'};
+create n={name='time,',properties='(49,8),'};
+create n={name='to',properties='(10,15),(33,16),(57,3),(46,7),(18,13),(64,16),(30,7),(8,10),(18,10),(11,20),(28,4),(56,13),(27,6),(10,7),(58,17),(5,8),(35,17),(20,11),(37,4),(5,22),(20,4),(58,2),(39,13),(59,4),(40,11),(13,14),'};
+create n={name='toll',properties='(69,22),'};
+create n={name='top',properties='(5,19),'};
+create n={name='tune',properties='(58,15),'};
+create n={name='twice',properties='(50,20),'};
+create n={name='unit',properties='(69,16),'};
+create n={name='unpleased,',properties='(62,8),'};
+create n={name='up',properties='(1,6),(54,4),(46,21),(8,9),'};
+create n={name='upgrading',properties='(10,23),'};
+create n={name='use',properties='(28,5),(51,19),(40,12),(36,33),(36,26),(35,18),(64,17),(14,3),(4,7),'};
+create n={name='use,',properties='(57,4),(58,3),'};
+create n={name='uses',properties='(14,7),'};
+create n={name='using',properties='(49,3),(5,13),(34,52),'};
+create n={name='version',properties='(7,49),(7,56),'};
+create n={name='very',properties='(31,7),(55,5),(56,6),(62,12),'};
+create n={name='vid',properties='(49,4),'};
+create n={name='video',properties='(11,15),(65,2),(7,30),(49,14),'};
+create n={name='videos',properties='(31,3),'};
+create n={name='wall',properties='(34,54),'};
+create n={name='wanted',properties='(10,14),'};
+create n={name='was',properties='(35,5),(10,22),(26,9),(67,24),(34,22),(34,10),(34,6),(33,29),(69,13),'};
+create n={name='wasn't',properties='(13,5),'};
+create n={name='waster',properties='(21,9),'};
+create n={name='watch',properties='(53,5),'};
+create n={name='watching',properties='(11,13),'};
+create n={name='weather',properties='(30,12),'};
+create n={name='weight',properties='(67,28),'};
+create n={name='well',properties='(32,7),(43,9),(34,35),(44,20),'};
+create n={name='what',properties='(17,8),'};
+create n={name='when',properties='(5,10),(11,9),(5,24),'};
+create n={name='which',properties='(69,12),'};
+create n={name='why',properties='(5,4),'};
+create n={name='wife's',properties='(26,12),'};
+create n={name='will',properties='(53,9),(29,21),(18,8),(19,13),'};
+create n={name='wiser',properties='(7,9),'};
+create n={name='with',properties='(68,4),(58,29),(34,36),(27,15),'};
+create n={name='wonder',properties='(5,3),'};
+create n={name='works',properties='(65,4),'};
+create n={name='would',properties='(25,9),(29,2),(50,26),'};
+create n={name='year',properties='(16,12),'};
+create n={name='year,',properties='(7,16),'};
+create n={name='you',properties='(19,12),(36,24),(36,32),(66,2),(55,15),(53,8),(14,2),'};
+create n={name='you're',properties='(11,10),'};
+start n1=node:node_auto_index(name='$249'),n2=node:node_auto_index(name='for') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='$349'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='1'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='2gb'),n2=node:node_auto_index(name='ipod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='2nd'),n2=node:node_auto_index(name='gen') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='2nd'),n2=node:node_auto_index(name='Gen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='30GB'),n2=node:node_auto_index(name='version') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='3rd'),n2=node:node_auto_index(name='generation') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='4'),n2=node:node_auto_index(name='hours') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='4'),n2=node:node_auto_index(name='or') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='5'),n2=node:node_auto_index(name='hours') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='5G'),n2=node:node_auto_index(name='lies') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='5GB'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='5th'),n2=node:node_auto_index(name='genteration') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='5th'),n2=node:node_auto_index(name='gen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='6'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='6'),n2=node:node_auto_index(name='year') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='8'),n2=node:node_auto_index(name='hours') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='80GB'),n2=node:node_auto_index(name='version') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='8gb'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='APPLES'),n2=node:node_auto_index(name='LIBRARY') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Also,'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Apple'),n2=node:node_auto_index(name='says') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Apple'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Apple's'),n2=node:node_auto_index(name='idea') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='BATTERY'),n2=node:node_auto_index(name='LIFE,SCRATCHES') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Battery'),n2=node:node_auto_index(name='life') create n1-[:{weight:7}]->n
+start n1=node:node_auto_index(name='Battery'),n2=node:node_auto_index(name='Life') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='Battery'),n2=node:node_auto_index(name='Life,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Battery'),n2=node:node_auto_index(name='drains') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='But'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Christmas'),n2=node:node_auto_index(name='gift') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Christmas'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Compact,'),n2=node:node_auto_index(name='Easy') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='DONT'),n2=node:node_auto_index(name='LIKE') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Decent'),n2=node:node_auto_index(name='camera') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Def'),n2=node:node_auto_index(name='video') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Definitely'),n2=node:node_auto_index(name='need') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Easy'),n2=node:node_auto_index(name='To') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Easy'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Gen'),n2=node:node_auto_index(name='Nano') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Great'),n2=node:node_auto_index(name='sound,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Great'),n2=node:node_auto_index(name='Sound,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='bought') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='love') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='like') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='DONT') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='purchased') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='thought') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='just') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='think') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='first') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='noticed') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='moved') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='do') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='have') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='can') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='will') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='expect') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='wanted') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='don't') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'),n2=node:node_auto_index(name='had') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'm'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I'm'),n2=node:node_auto_index(name='into') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I've'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='I've'),n2=node:node_auto_index(name='seen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='IT'),n2=node:node_auto_index(name='!') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='It'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='It's'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='LCD'),n2=node:node_auto_index(name='display') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='LIBRARY'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='LIFE,SCRATCHES'),n2=node:node_auto_index(name='EASY,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='LIKE'),n2=node:node_auto_index(name='THE') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='LOVES'),n2=node:node_auto_index(name='IT') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Life,'),n2=node:node_auto_index(name='Sleek') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Long'),n2=node:node_auto_index(name='battery') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='Long'),n2=node:node_auto_index(name='Battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Lots'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Make'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='My'),n2=node:node_auto_index(name='only') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='Nano'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Nano'),n2=node:node_auto_index(name='has') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='One'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Overall,'),n2=node:node_auto_index(name='almost') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Pedometer'),n2=node:node_auto_index(name='feature') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Performance,'),n2=node:node_auto_index(name='Great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Price'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Product'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Received'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Reliable'),n2=node:node_auto_index(name='Performance,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='SHORT'),n2=node:node_auto_index(name='BATTERY') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Scratches'),n2=node:node_auto_index(name='easily') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Set'),n2=node:node_auto_index(name='Up,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Shorter'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Sleek'),n2=node:node_auto_index(name='Compact,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='So,'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Sound,'),n2=node:node_auto_index(name='Lots') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Standard'),n2=node:node_auto_index(name='Def') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Storage'),n2=node:node_auto_index(name='bought') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='THE'),n2=node:node_auto_index(name='APPLES') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='battery') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='video') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='Pedometer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='The'),n2=node:node_auto_index(name='new') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Then'),n2=node:node_auto_index(name='you') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='This'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Thought'),n2=node:node_auto_index(name='would') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='To'),n2=node:node_auto_index(name='Set') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Up,'),n2=node:node_auto_index(name='Reliable') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Very'),n2=node:node_auto_index(name='easy') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='Watching'),n2=node:node_auto_index(name='any') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='When'),n2=node:node_auto_index(name='you') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='When'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='lot') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='deal') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='more') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='replacement') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='brighter') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='case') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='new') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='very') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='birthday') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='video') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='snap') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='great') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='big') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='little') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='wall') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='small') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='song') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='camera') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='newer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='Christmas') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='a'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='able'),n2=node:node_auto_index(name='than') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='about'),n2=node:node_auto_index(name='1') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='about'),n2=node:node_auto_index(name='4') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='accurate,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='addition'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='advertised'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='after'),n2=node:node_auto_index(name='sliding') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='all'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='all'),n2=node:node_auto_index(name='day') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='almost'),n2=node:node_auto_index(name='perfect') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='also'),n2=node:node_auto_index(name='very') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='always'),n2=node:node_auto_index(name='on') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='amazing'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='amazing,'),n2=node:node_auto_index(name='Definitely') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='an'),n2=node:node_auto_index(name='older') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='an'),n2=node:node_auto_index(name='awsome') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='an'),n2=node:node_auto_index(name='8gb') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='an'),n2=node:node_auto_index(name='apple') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='the') create n1-[:{weight:6}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='i') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='sounds') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='its') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='seems') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='easy') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='it') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='I'm') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='has') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='built') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='he') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='more') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='purchased') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='screen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='better') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='$349') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='and'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='any'),n2=node:node_auto_index(name='videos') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='appealing'),n2=node:node_auto_index(name='aspect') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='apple'),n2=node:node_auto_index(name='ipod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='well') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='I've') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='strong') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='advertised') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='a') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='far') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='as'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='aspect'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='at'),n2=node:node_auto_index(name='all') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='attention'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='audio'),n2=node:node_auto_index(name='quality') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='auto'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='awsome'),n2=node:node_auto_index(name='christmas') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='awsome'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bad'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bad'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bad,'),n2=node:node_auto_index(name='real') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='basically'),n2=node:node_auto_index(name='does') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='life') create n1-[:{weight:20}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='seems') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='life,') create n1-[:{weight:7}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='doesn't') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='replacement') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='waster') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='dies') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='very') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='life,have') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='lasts') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='is') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='charger') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='if') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='does') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery,'),n2=node:node_auto_index(name='you') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery,'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='battery,scratch'),n2=node:node_auto_index(name='resistant') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='be'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='be'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='be'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='because'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='because'),n2=node:node_auto_index(name='i') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='becuase'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='before'),n2=node:node_auto_index(name='recharge') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='better'),n2=node:node_auto_index(name='video') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='better'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='better'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='big'),n2=node:node_auto_index(name='deal') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='big'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='birthday'),n2=node:node_auto_index(name='gift') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bit'),n2=node:node_auto_index(name='unpleased,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bought'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='bought'),n2=node:node_auto_index(name='this') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='bought'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='brighter'),n2=node:node_auto_index(name='screen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='built'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='burned'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='it's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='if') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='other') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='seems') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='I've') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='still') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='time') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='i'm') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='but'),n2=node:node_auto_index(name='probably') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='button'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='calories'),n2=node:node_auto_index(name='burned') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='cam'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='camera'),n2=node:node_auto_index(name='works') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='camera'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='camera'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='camera'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='can'),n2=node:node_auto_index(name='tune') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='car,'),n2=node:node_auto_index(name='light,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='case'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='caught'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='changing'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='charge'),n2=node:node_auto_index(name='well') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='charged'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='charger'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='christmas'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='christmas'),n2=node:node_auto_index(name='present') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='classic,'),n2=node:node_auto_index(name='which') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='clear'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='cold'),n2=node:node_auto_index(name='weather') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='color'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='complaint'),n2=node:node_auto_index(name='with') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='complaint'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='computer'),n2=node:node_auto_index(name='doen't') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='constantly'),n2=node:node_auto_index(name='like') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='control'),n2=node:node_auto_index(name='button') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='convenient'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='day'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='day'),n2=node:node_auto_index(name='if') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='deal'),n2=node:node_auto_index(name='though') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='deal'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='device,'),n2=node:node_auto_index(name='excellent') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='die'),n2=node:node_auto_index(name='quicker') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='dies'),n2=node:node_auto_index(name='quickly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='dies'),n2=node:node_auto_index(name='faster') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='directions'),n2=node:node_auto_index(name='make') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='display'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='do'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='do'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='doen't'),n2=node:node_auto_index(name='charge') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='does'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='does'),n2=node:node_auto_index(name='what') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='does'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='doesn't'),n2=node:node_auto_index(name='last') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='doesn't'),n2=node:node_auto_index(name='take') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='doing'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='don't'),n2=node:node_auto_index(name='use') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='dont'),n2=node:node_auto_index(name='like') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='dont'),n2=node:node_auto_index(name='use') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='down'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='drain'),n2=node:node_auto_index(name='when') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='drains'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='drains'),n2=node:node_auto_index(name='even') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='due'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='dummie'),n2=node:node_auto_index(name='proof') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='easily'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='easily,'),n2=node:node_auto_index(name='short') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='easy'),n2=node:node_auto_index(name='to') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='easy'),n2=node:node_auto_index(name='directions') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='either'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='endurance'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='enough'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='especially'),n2=node:node_auto_index(name='when') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='even'),n2=node:node_auto_index(name='after') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='even'),n2=node:node_auto_index(name='if') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='eventually'),n2=node:node_auto_index(name='replace') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='exact'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='exactly'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='excellent'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='excellent'),n2=node:node_auto_index(name='sound') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='except'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='exchange'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='exercise'),n2=node:node_auto_index(name='so') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='expect'),n2=node:node_auto_index(name='will') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='fact'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='far'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='faster'),n2=node:node_auto_index(name='than') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='favorite'),n2=node:node_auto_index(name='gift') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='favorite'),n2=node:node_auto_index(name='radio') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='feature'),n2=node:node_auto_index(name='seems') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='features'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='filled'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='find'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='first'),n2=node:node_auto_index(name='iPOD') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='first'),n2=node:node_auto_index(name='listened') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='first'),n2=node:node_auto_index(name='ipod,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='first'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='first'),n2=node:node_auto_index(name='ipod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='my') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='the') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='an') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='a') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='christmas') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='up') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='such') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='me,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='for'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='found'),n2=node:node_auto_index(name='one') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='freezes'),n2=node:node_auto_index(name='up') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='from'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='from'),n2=node:node_auto_index(name='an') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='full'),n2=node:node_auto_index(name='day') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gains'),n2=node:node_auto_index(name='many') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gen'),n2=node:node_auto_index(name='nano') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='gen'),n2=node:node_auto_index(name='2gb') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gen'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='generation'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='genteration'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='get'),n2=node:node_auto_index(name='Apple') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='get'),n2=node:node_auto_index(name='a') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='gift'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gift'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gift'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='quality') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='length') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='good'),n2=node:node_auto_index(name='quality,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='got'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='got'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='price') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='unit') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='and') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='sound,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='addition') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='new') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='product') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='great,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='greater'),n2=node:node_auto_index(name='than') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='gym'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='had'),n2=node:node_auto_index(name='an') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='has'),n2=node:node_auto_index(name='great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='has'),n2=node:node_auto_index(name='taken') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='has'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='have'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='have'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='have'),n2=node:node_auto_index(name='longer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='have'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='he'),n2=node:node_auto_index(name='LOVES') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='highly'),n2=node:node_auto_index(name='recommend') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='hours'),n2=node:node_auto_index(name='or') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='hours'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='huge'),n2=node:node_auto_index(name='80GB') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'),n2=node:node_auto_index(name='dont') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'),n2=node:node_auto_index(name='got') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'),n2=node:node_auto_index(name='love') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'),n2=node:node_auto_index(name='do') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'),n2=node:node_auto_index(name='filled') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='i'm'),n2=node:node_auto_index(name='new') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPOD'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod'),n2=node:node_auto_index(name='gains') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod'),n2=node:node_auto_index(name='.') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='iPod'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod'),n2=node:node_auto_index(name='basically') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod'),n2=node:node_auto_index(name='because') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod,'),n2=node:node_auto_index(name='camera') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod,'),n2=node:node_auto_index(name='many') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPod,'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='iPods'),n2=node:node_auto_index(name='so') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='idea'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='if'),n2=node:node_auto_index(name='you') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='if'),n2=node:node_auto_index(name='endurance') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='if'),n2=node:node_auto_index(name='using') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='if'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='improvements,'),n2=node:node_auto_index(name='including') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='in'),n2=node:node_auto_index(name='inconvenient') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='in'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='in'),n2=node:node_auto_index(name='speaker') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='in'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='in'),n2=node:node_auto_index(name='cold') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='including'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='inconvenient'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='inconvenient'),n2=node:node_auto_index(name='spot') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='incremental'),n2=node:node_auto_index(name='improvements,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='instead'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='into'),n2=node:node_auto_index(name='exercise') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='3rd') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='except') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod'),n2=node:node_auto_index(name='nano,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='ipod,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='a') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='my') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='exactly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='very') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='easy') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='short') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='bad,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='twice') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='that') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='not') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='clear') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='it's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='possibly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='also') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='excellent') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='much') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='is'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='isn't'),n2=node:node_auto_index(name='great,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='isn't'),n2=node:node_auto_index(name='amazing,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='just') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='lasts') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='constantly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='convenient') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='kills') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='does') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='for') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='drains') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='its') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='uses') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='inconvenient') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='once') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='should') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it's'),n2=node:node_auto_index(name='toll') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it's'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it's'),n2=node:node_auto_index(name='amazing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='it,'),n2=node:node_auto_index(name='even') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='item'),n2=node:node_auto_index(name='with') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='its'),n2=node:node_auto_index(name='one,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='its'),n2=node:node_auto_index(name='awsome') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='its'),n2=node:node_auto_index(name='really') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='just'),n2=node:node_auto_index(name='listen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='just'),n2=node:node_auto_index(name='might') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='just'),n2=node:node_auto_index(name='watch') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='just'),n2=node:node_auto_index(name='got') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='just'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='keep'),n2=node:node_auto_index(name='changing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='kills'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='kind'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='about') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='last'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lasts'),n2=node:node_auto_index(name='4') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lasts'),n2=node:node_auto_index(name='all') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lasts'),n2=node:node_auto_index(name='me') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lasts'),n2=node:node_auto_index(name='about') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lasts'),n2=node:node_auto_index(name='much') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='length'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='less'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lies'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='isn't') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='than') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='is') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='.') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='wasn't') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='rated') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='before') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='seems') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='most') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life'),n2=node:node_auto_index(name='last') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='but') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='Decent') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='freezes') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='love') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,'),n2=node:node_auto_index(name='becuase') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='life,have'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='light,'),n2=node:node_auto_index(name='portable,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lightweight,'),n2=node:node_auto_index(name='thin,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='like'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='like'),n2=node:node_auto_index(name='i') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='like'),n2=node:node_auto_index(name='it') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='like'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='likely'),n2=node:node_auto_index(name='due') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='listen'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='listened'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='little'),n2=node:node_auto_index(name='bit') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='time,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='battery') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='battery,scratch') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='at') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='enough') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='long'),n2=node:node_auto_index(name='time') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='longer'),n2=node:node_auto_index(name='than') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='longer'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lot'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='lot'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='love'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='love'),n2=node:node_auto_index(name='the') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='love'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='make'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='make'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='many'),n2=node:node_auto_index(name='steps') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='many'),n2=node:node_auto_index(name='incremental') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='mature'),n2=node:node_auto_index(name='iPod,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='me'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='me'),n2=node:node_auto_index(name='be') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='me,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='memory'),n2=node:node_auto_index(name='up') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='might'),n2=node:node_auto_index(name='me') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='mini'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='mode'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='more'),n2=node:node_auto_index(name='able') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='more'),n2=node:node_auto_index(name='realistic') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='more'),n2=node:node_auto_index(name='mature') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='most'),n2=node:node_auto_index(name='likely') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='most'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='most'),n2=node:node_auto_index(name='appealing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='moved'),n2=node:node_auto_index(name='up') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='much'),n2=node:node_auto_index(name='longer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='much'),n2=node:node_auto_index(name='better') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='music'),n2=node:node_auto_index(name='most') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='6') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='iPods') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='previous') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='last') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='computer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='first') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='2nd') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='favorite') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='attention') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='my'),n2=node:node_auto_index(name='wife's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='nano'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='nano'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='nano,'),n2=node:node_auto_index(name='because') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='need'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='new'),n2=node:node_auto_index(name='item') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='new'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='new'),n2=node:node_auto_index(name='features') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='new'),n2=node:node_auto_index(name='Nano') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='new'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='newer'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='nice'),n2=node:node_auto_index(name='screen,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='nice'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='like') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='using') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='found') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='last') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='be') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='kind') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='so') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='not'),n2=node:node_auto_index(name='dummie') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='noticed'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='numbering'),n2=node:node_auto_index(name='would') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='Storage') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='use') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='battery') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='all') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='$249') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='replacing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='of'),n2=node:node_auto_index(name='time') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='off'),n2=node:node_auto_index(name='when') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='old'),n2=node:node_auto_index(name='iPod,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='old'),n2=node:node_auto_index(name='son') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='older'),n2=node:node_auto_index(name='classic,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='on'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='on'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='once'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='one'),n2=node:node_auto_index(name='full') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='one'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='one's'),n2=node:node_auto_index(name='memory') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='one,'),n2=node:node_auto_index(name='year,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='wonder') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='last') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='complaint') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='bad') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='lasts') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='charged') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='thing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='only'),n2=node:node_auto_index(name='one') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='or'),n2=node:node_auto_index(name='less') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='or'),n2=node:node_auto_index(name='you') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='or'),n2=node:node_auto_index(name='watching') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='or'),n2=node:node_auto_index(name='5') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='other'),n2=node:node_auto_index(name='than') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='out'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='out'),n2=node:node_auto_index(name='or') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='outlet'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='past'),n2=node:node_auto_index(name='Christmas') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='pedometer'),n2=node:node_auto_index(name='with') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='pedometer'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='pedometer,'),n2=node:node_auto_index(name='lightweight,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='perfect'),n2=node:node_auto_index(name='just') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='pictures,'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='points'),n2=node:node_auto_index(name='of') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='portable,'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='possibly'),n2=node:node_auto_index(name='greater') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='present'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='previous'),n2=node:node_auto_index(name='2nd') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='price'),n2=node:node_auto_index(name='points') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='price'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='probably'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='probably'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='product'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='product'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='product'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='purchased'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='purchased'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quality'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quality'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quality,'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quicker'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quickly'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='quickly'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='radio'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='radio'),n2=node:node_auto_index(name='station,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='rated'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='real'),n2=node:node_auto_index(name='bad') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='realistic'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='really'),n2=node:node_auto_index(name='easy') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='recommend'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='recording'),n2=node:node_auto_index(name='or') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='recording,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='replace'),n2=node:node_auto_index(name='the') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='replace'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='replacement'),n2=node:node_auto_index(name='for') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='replacing'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='resistant'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='right'),n2=node:node_auto_index(name='weight') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='run'),n2=node:node_auto_index(name='out') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='says'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='scratch'),n2=node:node_auto_index(name='resistant') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='scratches'),n2=node:node_auto_index(name='easily,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='screen'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='screen'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='screen'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='screen,'),n2=node:node_auto_index(name='great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='see'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='seems'),n2=node:node_auto_index(name='to') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='seems'),n2=node:node_auto_index(name='like') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='seems'),n2=node:node_auto_index(name='accurate,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='seen'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sharp'),n2=node:node_auto_index(name='!') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='shipping'),n2=node:node_auto_index(name='charges') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='shoes'),n2=node:node_auto_index(name='if') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='short'),n2=node:node_auto_index(name='battery') create n1-[:{weight:5}]->n
+start n1=node:node_auto_index(name='shortened'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='should'),n2=node:node_auto_index(name='be') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='shutting'),n2=node:node_auto_index(name='down') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sliding'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='small'),n2=node:node_auto_index(name='device,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='snap'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='so'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='so'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='so'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='son'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='song'),n2=node:node_auto_index(name='on') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sound'),n2=node:node_auto_index(name='quality') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sound,'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sound,'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='sounds'),n2=node:node_auto_index(name='great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='speaker'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='station,'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='steps'),n2=node:node_auto_index(name='wiser') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='still'),n2=node:node_auto_index(name='sharp') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='strong'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='such'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='suggest'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='take'),n2=node:node_auto_index(name='pictures,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='taken'),n2=node:node_auto_index(name='it's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='tantalizing'),n2=node:node_auto_index(name='price') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='stated') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='that,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='its') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='old') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='than'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='instead') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='one's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='was') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='I') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='big') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='caught') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that'),n2=node:node_auto_index(name='long') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='that,'),n2=node:node_auto_index(name='would') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='5th') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='color') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='pedometer') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='battery,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='battery') create n1-[:{weight:22}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='mini') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='auto') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='most') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='screen') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='new') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='time') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='pedometer,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='features') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='better') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='LCD') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='nano') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='fact') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='only') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='product') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='huge') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='tantalizing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='right') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='computer') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='car,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='gym') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='radio') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='audio') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='numbering') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='first') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='top') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='the'),n2=node:node_auto_index(name='30GB') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thin,'),n2=node:node_auto_index(name='nice') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thing'),n2=node:node_auto_index(name='I') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thing'),n2=node:node_auto_index(name='other') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thing'),n2=node:node_auto_index(name='is') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='thing'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thing'),n2=node:node_auto_index(name='i') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='think'),n2=node:node_auto_index(name='Apple's') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='so') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='iPod') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='ipod') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='product') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='for') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='exact') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='iPod,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='is') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='this'),n2=node:node_auto_index(name='past') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='though'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='thought'),n2=node:node_auto_index(name='if') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='time'),n2=node:node_auto_index(name='especially') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='time'),n2=node:node_auto_index(name='has') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='time'),n2=node:node_auto_index(name='doing') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='time'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='time,'),n2=node:node_auto_index(name='it') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='6') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='eventually') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='see') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='get') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='use') create n1-[:{weight:4}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='use,') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='drain') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='music') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='all') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='replace') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='die') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='off') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='my') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='keep') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='beginners') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='be') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='to'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='toll'),n2=node:node_auto_index(name='on') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='top'),n2=node:node_auto_index(name='control') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='tune'),n2=node:node_auto_index(name='in') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='twice'),n2=node:node_auto_index(name='as') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='unit'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='unpleased,'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='up'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='up'),n2=node:node_auto_index(name='from') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='up'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='upgrading'),n2=node:node_auto_index(name='from') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='use'),n2=node:node_auto_index(name='.') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='use'),n2=node:node_auto_index(name='it') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='use'),n2=node:node_auto_index(name='and') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='use'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='use'),n2=node:node_auto_index(name='!') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='use,'),n2=node:node_auto_index(name='Great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='use,'),n2=node:node_auto_index(name='love') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='uses'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='using'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='using'),n2=node:node_auto_index(name='it,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='using'),n2=node:node_auto_index(name='vid') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='version'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='very'),n2=node:node_auto_index(name='short') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='very'),n2=node:node_auto_index(name='quickly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='very'),n2=node:node_auto_index(name='good') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='very'),n2=node:node_auto_index(name='nice') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='vid'),n2=node:node_auto_index(name='cam') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='video'),n2=node:node_auto_index(name='camera') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='video'),n2=node:node_auto_index(name='battery') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='video'),n2=node:node_auto_index(name='but') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='video'),n2=node:node_auto_index(name='recording,') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='videos'),n2=node:node_auto_index(name='drains') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wall'),n2=node:node_auto_index(name='outlet') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wanted'),n2=node:node_auto_index(name='to') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='the') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='just') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='on') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='an') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='upgrading') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='was'),n2=node:node_auto_index(name='probably') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wasn't'),n2=node:node_auto_index(name='that') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='waster'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='watch'),n2=node:node_auto_index(name='out') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='watching'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='weather'),n2=node:node_auto_index(name='.') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='weight'),n2=node:node_auto_index(name='!') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='well'),n2=node:node_auto_index(name='.') create n1-[:{weight:3}]->n
+start n1=node:node_auto_index(name='well'),n2=node:node_auto_index(name='with') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='what'),n2=node:node_auto_index(name='Apple') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='when'),n2=node:node_auto_index(name='I'm') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='when'),n2=node:node_auto_index(name='shutting') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='when'),n2=node:node_auto_index(name='you're') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='which'),n2=node:node_auto_index(name='was') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='why'),n2=node:node_auto_index(name='the') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wife's'),n2=node:node_auto_index(name='favorite') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='will'),n2=node:node_auto_index(name='have') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='will'),n2=node:node_auto_index(name='run') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='will'),n2=node:node_auto_index(name='not') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='will'),n2=node:node_auto_index(name='exchange') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wiser'),n2=node:node_auto_index(name='and') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='with'),n2=node:node_auto_index(name='this') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='with'),n2=node:node_auto_index(name='calories') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='with'),n2=node:node_auto_index(name='either') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='with'),n2=node:node_auto_index(name='a') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='wonder'),n2=node:node_auto_index(name='why') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='works'),n2=node:node_auto_index(name='great') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='would'),n2=node:node_auto_index(name='suggest') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='would'),n2=node:node_auto_index(name='have') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='would'),n2=node:node_auto_index(name='highly') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='year'),n2=node:node_auto_index(name='old') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='year,'),n2=node:node_auto_index(name='old') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='you'),n2=node:node_auto_index(name='find') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='you'),n2=node:node_auto_index(name='use') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='you'),n2=node:node_auto_index(name='have') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='you'),n2=node:node_auto_index(name='will') create n1-[:{weight:2}]->n
+start n1=node:node_auto_index(name='you'),n2=node:node_auto_index(name='dont') create n1-[:{weight:1}]->n
+start n1=node:node_auto_index(name='you're'),n2=node:node_auto_index(name='recording') create n1-[:{weight:1}]->n
+COMMIT
