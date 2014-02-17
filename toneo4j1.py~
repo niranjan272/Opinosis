@@ -31,7 +31,7 @@ InputPickleData = pickle.load(InputPicklePointerRelationship)
 
 for line in InputPickleData:
 
-	RelFinalLineToWrite=CreateRelationshipSyntax[0:1]+line[0]+CreateRelationshipSyntax[1:23]+str(line[2])+CreateRelationshipSyntax[23:28]+line[1]+CreateRelationshipSyntax[28:29]+"\n"
+	RelFinalLineToWrite=CreateRelationshipSyntax[0:1]+line[0]+CreateRelationshipSyntax[1:23]+str(line[2])+CreateRelationshipSyntax[23:28]+line[1]+CreateRelationshipSyntax[27:28]+"\n"
 	OutputFilePointer.write(RelFinalLineToWrite)
 
 ####	
