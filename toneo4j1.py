@@ -4,16 +4,18 @@ import re
 import sys
 import os
 import pickle
+import nltk
 
-InputFilePointerNodes=open("/home/niranjan/project/opnosis/newoutput","r")
+InputFilePointerNodes=open("/home/shek/my_repo/opnosis/newoutput","r")
 InputNodeData=InputFilePointerNodes.readlines()
 NodeIdName=""
 ListNodeIdvsNodeName=[]
 i=1;
+tagger=nltk.data.load('POSTrainedTagger.pickle')
 
 ####Code to convert node list from hdfs newoutput folder to node list for neo4j........[input file newoutput]
-CreateNodeSyntax="""({name:"",properties:''}),"""
-OutputFilePointer=open("/home/niranjan/project/opnosis/InputForNeo4j.txt","w");
+CreateNodeSyntax="""({name:"",properties:"",pos_tag:""}),"""
+OutputFilePointer=open("/home/shek/my_repo/opnosis/InputForNeo4j.txt","w");
 OutputFilePointer.write("CREATE ")
 for DataLineNode in InputNodeData:
 	DataLineNode=DataLineNode.strip()
@@ -21,7 +23,11 @@ for DataLineNode in InputNodeData:
 	NodeIdName="n"+str(i)
 	ListNodeIdvsNodeName.append([NodeIdName,NodeList[0]]) #list to store Node Ids of resprective names of nodes
         i=i+1;
- 	NodeFinalLineToWrite=CreateNodeSyntax[0:1]+NodeIdName+CreateNodeSyntax[1:8]+NodeList[0]+CreateNodeSyntax[8:22]+NodeList[1]+CreateNodeSyntax[22:26]+"\n"
+	ListTaggedName=tagger.tag([NodeList[0]])
+	TupleTaggedName=ListTaggedName[0]
+	StrTag=str(TupleTaggedName[1])  		#Tag from tuple is converted into string
+	NodeList[1]=NodeList[1].rstrip(',')		#To remove last comma in list of properties
+	NodeFinalLineToWrite=CreateNodeSyntax[0:1]+NodeIdName+CreateNodeSyntax[1:8]+NodeList[0]+CreateNodeSyntax[8:22]+NodeList[1]+CreateNodeSyntax[22:33]+StrTag+CreateNodeSyntax[33:37]+"\n"
 	OutputFilePointer.write(NodeFinalLineToWrite)
 
 ####
@@ -30,7 +36,7 @@ for DataLineNode in InputNodeData:
 
 CreateRelationshipSyntax="""()-[:CONNECTS{weight:}]->(),"""
 
-InputPicklePointerRelationship=open('/home/niranjan/project/opnosis/edge_strength_output.txt','rb')
+InputPicklePointerRelationship=open('/home/shek/my_repo/opnosis/edge_strength_output.txt','rb')
 
 InputPickleData = pickle.load(InputPicklePointerRelationship)
 
