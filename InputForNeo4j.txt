@@ -1333,4 +1333,4 @@ CREATE (n1{name:"!",properties:"(67,29),(49,19),(16,19),(64,18)",pos_tag:"."}),
 (n427)-[:CONNECTS{weight:1}]->(n212),
 (n427)-[:CONNECTS{weight:2}]->(n419),
 (n427)-[:CONNECTS{weight:1}]->(n162),
-(n428)-[:CONNECTS{weight:1}]->(n330),
+(n428)-[:CONNECTS{weight:1}]->(n330)
