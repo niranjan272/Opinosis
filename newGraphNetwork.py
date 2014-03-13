@@ -32,24 +32,36 @@ def CreateGraph():
     
 #Function to detect valid start node
 def VSN(n,data):
-    ms=data['PRI']    
-    return 1
+    ListValidStart=["I"]
+    PIDList=[]
+    PRIstr=data['PRI']
+    PIDList=re.findall("(\d{1,}(?=\)))",PRIstr,0)
+    PIDList = map(int, PIDList)                    #To convert list of string to list of Intergers  
+    if(numpy.mean(PIDList)<3 or n in ListValidStart):
+        return 1
+    else:
+        return 0
 
 #Function to Traverse and find valid paths
 def Traverse(cList,Nnode,score,PRI,pos_tag,pathLen):
-    print "Hello"
+    print "\n"
 
 import pickle
 import nltk
 import networkx as nx
-
+import re
+import numpy
 G=nx.DiGraph()
+count=0
 CreateGraph()
 
 for Nnode,Ndata in G.nodes(data=True):
     if(VSN(Nnode,Ndata)):
+        count=count+1        
+        print count
         pathLen=1
         score=0
         cList=[]
         Traverse(cList,Nnode,score,Ndata['PRI'],Ndata['pos_tag'],pathLen)
-
+        print Nnode
+        print Ndata
