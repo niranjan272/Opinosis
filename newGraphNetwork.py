@@ -27,9 +27,18 @@ def CreateGraph():
 
     for line in InputPickleData:
         G.add_edge(line[0],line[1],weight=line[2])
-    m=G.nodes()
-    print m
+
+  
     
+#Function to detect valid start node
+def VSN(n,data):
+    ms=data['PRI']    
+    return 1
+
+#Function to Traverse and find valid paths
+def Traverse(cList,Nnode,score,PRI,pos_tag,pathLen):
+    print "Hello"
+
 import pickle
 import nltk
 import networkx as nx
@@ -37,4 +46,10 @@ import networkx as nx
 G=nx.DiGraph()
 CreateGraph()
 
+for Nnode,Ndata in G.nodes(data=True):
+    if(VSN(Nnode,Ndata)):
+        pathLen=1
+        score=0
+        cList=[]
+        Traverse(cList,Nnode,score,Ndata['PRI'],Ndata['pos_tag'],pathLen)
 
