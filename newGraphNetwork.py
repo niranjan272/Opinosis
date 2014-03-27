@@ -14,9 +14,9 @@ import shlex
 
 G=nx.DiGraph()  #Directed Graph (GLOBAL)
 count=0
-
+count_sent=0
 SIGMAvsn=3  #valid start node
-SIGMAr=4    
+SIGMAr=2    
 GAP=3    
 
 #Function to create graph
@@ -64,15 +64,42 @@ def VSN(n,data):
 
 #function to detect valid end node
 def VEN(n,data):
-    ListValidEnd=[".","!","?","yet","but","and"]
+    ListValidEnd=[".","!","?"]
     if(n in ListValidEnd):
         return True
     else:
         return False
-    
+
+#function to get pos tag
+def getPosTag(node):
+    for Nnode,Ndata in G.nodes(data=True):
+        if(Nnode==node):
+            StrPosTag=Ndata['pos_tag']
+            return StrPosTag
+
 
     
 def ValidSentence(sentence):
+    sent=[]    
+    for i in sentence:
+        pos_tag=getPosTag(i)
+        sent=sent[:]
+        sent.append(i+'/'+pos_tag)
+    last=sent[-1]
+    w,t=last.split("/")
+    if t in set(["TO", "VBZ", "IN", "CC", "WDT", "PRP", "DT", ","]):
+        return False
+    sent=" ".join(sent)
+    if re.match(".∗(/NN)+.∗(/VB)+.∗(/JJ)+.∗", sent):
+        return True
+    elif re.match(".*(/PRP|/DT)+.*(/VB)+.*(/RB|/JJ)+.*(/NN)+.*", sent):
+        return True
+    elif re.match(".*(/JJ)+.*(/TO)+.*(/VB).*", sent):
+        return True
+    elif re.match(".*(/RB)+.*(/IN)+.*(/NN)+.*", sent):
+        return True
+    else:
+        return False
     return False
     
 """
@@ -107,9 +134,6 @@ def intersect(PRIoverlap,PRInode):
                 break
     #print "THis is new PRI:"
     #print newPRI
-    #if (len(newPRI)==0):
-    #    return PRIoverlap
-    #else:
     return newPRI
     
 def pathScore(redundancy,length):
@@ -126,11 +150,9 @@ def Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count):
         if(VEN(Nnode,Ndata)):
             if (ValidSentence(sentence)):
                 final_score = score/float(len(sentence))
-                cList=sentence
-                print "THis is the final Sentence------>>>>>", cList            
+                cList.append(" ".join(sentence))
+                            
                 return
-                #calculate final score
-                #add candidate
                 
                 
     for neighbor in G.successors(Nnode) :
@@ -138,23 +160,20 @@ def Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count):
         PRInew=intersect(PRIoverlap,PRIneighbor)
         redundancy=len(PRInew)
         if(redundancy>0):  
-            #print "This is new PRI",PRInew            
             new_sentence = sentence[:]
             new_sentence.append(neighbor)
-            #print "This is the sentence:\n\n",sentence
             newPathLen=pathLen+1
             new_score=score+pathScore(redundancy,len(new_sentence))
-            count=count +1
+            
             
             Traverse(cList,neighbor,new_score,PRIneighbor,newPathLen,PRInew,new_sentence,count)
-
+            
 #MAIN
 CreateGraph()
+
 for Nnode,Ndata in G.nodes(data=True):   
     
     if(VSN(Nnode,Ndata['PRI'])):
-        count=count+1
-        #print Ndata
         pathLen=1
         G.nodes()
         score=0
@@ -164,3 +183,4 @@ for Nnode,Ndata in G.nodes(data=True):
         PRIoverlap=Ndata['PRI']
         
         Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count)
+                       
