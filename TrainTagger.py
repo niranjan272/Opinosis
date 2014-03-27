@@ -16,20 +16,3 @@ POSTrainedTagger = ClassifierBasedPOSTagger(train=train_sents)
 f = open('/usr/share/nltk_data/POSTrainedTagger.pickle', 'w')
 pickle.dump(POSTrainedTagger, f)
 f.close()
-
-
-
-#import pickle
-#from nltk.tag import DefaultTagger
-#from nltk.tag import UnigramTagger
-#from nltk.corpus import treebank
-#
-##tagger1 = DefaultTagger('NN')
-#train_sents = treebank.tagged_sents()[:3000]
-#POSTrainedTagger = UnigramTagger(train_sents)
-#f = open('/usr/share/nltk_data/POSTrainedTagger.pickle', 'w')
-#pickle.dump(POSTrainedTagger, f)
-#f.close()
-
-
-
