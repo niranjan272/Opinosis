@@ -12,13 +12,19 @@ import re
 import numpy
 import shlex
 
+"""
+Global declarations
+"""
+
 G=nx.DiGraph()  #Directed Graph (GLOBAL)
 count=0
-count_sent=0
-SIGMAvsn=3  #valid start node
+SIGMAvsn=5  #valid start node
 SIGMAr=2    
-GAP=3    
+GAP=2    #difference in pid
 
+"""
+Functions :
+"""
 #Function to create graph
 def CreateGraph():
     tagger=nltk.data.load('POSTrainedTagger.pickle')
@@ -52,20 +58,20 @@ def CreateGraph():
   
     
 #Function to detect valid start node
-def VSN(n,data):
+def VSN(node,data):
     ListValidStart=["I"]
     PIDList=[]
     PIDList=[pid for sid,pid in data]
      
-    if(numpy.mean(PIDList)<SIGMAvsn or n in ListValidStart):
+    if(numpy.mean(PIDList)<SIGMAvsn or node in ListValidStart):
         return True
     else:
         return False
 
 #function to detect valid end node
-def VEN(n,data):
+def VEN(node,data):
     ListValidEnd=[".","!","?"]
-    if(n in ListValidEnd):
+    if(node in ListValidEnd):
         return True
     else:
         return False
@@ -78,8 +84,22 @@ def getPosTag(node):
             return StrPosTag
 
 
-    
+#Function to Validate sentence    
 def ValidSentence(sentence):
+    """
+    CC Coordinating conjunction
+    CD Cardinal number
+    DT Determiner
+    IN Preposition or subordinating conjunction
+    JJ Adjective
+    NN Noun, singular or mass
+    PRP Personal pronoun
+    RB Adverb   
+    VB Verb, base form
+    VBZ Verb, 3rd person singular present
+    WDT Wh­determiner
+    TO to
+    """    
     sent=[]    
     for i in sentence:
         pos_tag=getPosTag(i)
@@ -105,9 +125,9 @@ def ValidSentence(sentence):
 """
 Function to get PRI of neighbour. Used in Traverse function
 """
-def getPRI(Node):
+def getPRI(node):
     for Nnode,Ndata in G.nodes(data=True):
-        if Node == Nnode:
+        if node == Nnode:
             return Ndata['PRI']
 
 
@@ -132,15 +152,78 @@ def intersect(PRIoverlap,PRInode):
             if jsid==isid and ipid-jpid>0 and ipid-jpid <= GAP:
                 newPRI.append(i)
                 break
-    #print "THis is new PRI:"
+   # print "\nTHis is new PRI:"
     #print newPRI
     return newPRI
     
+#Function to calculate pathscore
 def pathScore(redundancy,length):
     return numpy.log2(length) * redundancy
+
+
+#Function to determine if node is collapsible
+def collapsible(node):
+    pos_tag=getPosTag(node)
+    if (pos_tag=='VB' or pos_tag=='IN'):
+        return True
+    else:
+        return False
+"""
+msdsa,;sda
+"""
+def intersection_sim(can1, can2):
+    set1 = set(can1.split())
+    set2 = set(can2.split())
+
+    return float(len(set1.intersection(set2)))/len(set1.union(set2))
+
+def removeDuplicates(temp):
+   
+    newTemp={}
+    flag=False
+    for key,value in temp.iteritems():
+       for nkey,nvalue in temp.iteritems():
+           if (jaccard(key,nkey)>=0.7):
+               continue
+           else:
+               """
+               making sure sentence is not in list, then comparing it with sentences already
+               present in the list and removing it if it matches a sentence already in the final list
+               """
+               if nkey not in newTemp:
+                   if newTemp:
+                       for i in newTemp:
+                           if(jaccard(i,nkey)>=0.7):
+                               flag=True
+                       if not flag:
+                           newTemp[nkey]=nvalue
+                   else:
+                        newTemp[nkey]=nvalue
+    if not newTemp:
+        v=list(temp.values()) #list of scores of sentences
+        newTemp[list(temp.keys())[v.index(max(v))]]=max(v) # [v.index(max(v)) will return index of score having maximum value use this to get the sentence from the list of sentecnces
+    return newTemp
+    
+# Function to calculate average path score...for collapse function        
+def averagePathScore(temp):
+    return numpy.mean(temp.values())
+    
+    
+    
+def Stich(ccAnchor,cc):
+    if len(cc) == 1:
+        return cc.keys()[0]
+    return " xx ".join(cc.keys())
+    sents = cc.keys()
+    anchor_str = " ".join(ccAnchor)
+    anchor_len = len(anchor_str)
+    sents = [e[anchor_len:] for e in sents]
+    sents = [e for e in sents if e.strip() != "./." and e.strip() != ",/,"]
+    s = anchor_str + " xx " + " AND ".join(sents)
+    return s + " ."
     
 #Function to Traverse and find valid paths
-def Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count):
+def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,collapsed):
     
     if len(sentence) > 20:
         return
@@ -149,38 +232,84 @@ def Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count):
     if(redundancy>=SIGMAr):
         if(VEN(Nnode,Ndata)):
             if (ValidSentence(sentence)):
-                final_score = score/float(len(sentence))
-                cList.append(" ".join(sentence))
-                            
+                finalScore = score/float(len(sentence))
+                cList[" ".join(sentence)]=finalScore
+                #print "\n\nThis is the sentence formed----->>>",sentence            
                 return
                 
                 
     for neighbor in G.successors(Nnode) :
+        #print "\n THis is neighbour====>", neighbor       
+        
+        #print "\nThis is overallPRI----> ", PRIoverlap     
         PRIneighbor=getPRI(neighbor)
+       # print "\nThis is PRI of neighbour----> ", PRIneighbor           
         PRInew=intersect(PRIoverlap,PRIneighbor)
         redundancy=len(PRInew)
         if(redundancy>0):  
             new_sentence = sentence[:]
             new_sentence.append(neighbor)
-            newPathLen=pathLen+1
             new_score=score+pathScore(redundancy,len(new_sentence))
-            
-            
-            Traverse(cList,neighbor,new_score,PRIneighbor,newPathLen,PRInew,new_sentence,count)
-            
-#MAIN
+#            if collapsible(neighbor) and not collapsed:
+#                ccAnchor=new_sentence
+#                anchorScore=new_score + pathScore(redundancy, len(new_sentence)+1)
+#                temp={}
+#                for vx in G.successors(neighbor):
+#                    vxPRI=getPRI(neighbor)
+#                    vxNewPRI= intersect(PRInew,vxPRI)
+#                    vxSentence = new_sentence[:]
+#                    vxSentence.append(vx)
+#                    Traverse(temp,vx,anchorScore,vxPRI,vxNewPRI,vxSentence,count,True)
+#                    if temp:     
+#                        temp=removeDuplicates(temp)
+#                        ccPathScore = averagePathScore(temp)
+#                        finalScore = float(anchorScore)/len(new_sentence) + ccPathScore
+#                        StichedSent=Stich(ccAnchor,temp)
+#                        #print "This is StichedSent--->",StichedSent
+#                        cList[StichedSent]=finalScore
+#            else:
+            Traverse(cList,neighbor,new_score,PRIneighbor,PRInew,new_sentence,count,False)
+                    
+
+#function to calculate jaccard index
+def jaccard(a, b):
+    a=set(a.split())
+    b=set(b.split())
+    c = a.intersection(b)
+    return float(len(c)) / (len(a) + len(b) - len(c))
+
+"""
+Main
+
+"""
+    
 CreateGraph()
+
+
+"""
+Parameters for the traverse function:
+    1. A list that will contain the sentence when it is(the sentence) found to be valid.
+    2. Current node that is under consideration
+    3. Redundancy score of the sentence SO FAR
+    4. PRI information of the node under consideration
+    5. overlap of PRI or the overall pri covered by the sentence
+    6. List containing node that will form a sentence
+    7. Count...temp parameter to control iterations  
+"""
 
 for Nnode,Ndata in G.nodes(data=True):   
     
     if(VSN(Nnode,Ndata['PRI'])):
-        pathLen=1
+        #print "THis is valid start node==>>", Nnode        
+        count=count+1        
+        pathLen=1  #pathlen removed from parameters coz it can be calculated by using the len of list function
         G.nodes()
         score=0
-        cList=[]
+        cList={}
         sentence = [Nnode]
         NodePRI= Ndata['PRI']
         PRIoverlap=Ndata['PRI']
-        
-        Traverse(cList,Nnode,score,NodePRI,pathLen,PRIoverlap,sentence,count)
-                       
+        Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,False)
+        if cList:
+            TempList=removeDuplicates(cList)
+            print TempList
