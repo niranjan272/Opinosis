@@ -1,3 +1,4 @@
+"""
 ####Program to calculate strength of edges in graph
 ####using exception because some values in data are missing which are causing array out of bound exceptions
 ###example values...they have only one value and hence cause exception when accesing the second value
@@ -9,9 +10,8 @@
 ###
 
 ###DONE :P
+"""
 import pickle
-from numpy import array
-import numpy
 arr=[]
 input_file=open("/home/shek/Project/edgelist.txt","r")
 data_line=input_file.readlines()
