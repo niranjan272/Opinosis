@@ -168,22 +168,19 @@ def collapsible(node):
         return True
     else:
         return False
-"""
-msdsa,;sda
-"""
-def intersection_sim(can1, can2):
-    set1 = set(can1.split())
-    set2 = set(can2.split())
 
-    return float(len(set1.intersection(set2)))/len(set1.union(set2))
-
-def removeDuplicates(temp):
-   
+def removeDuplicates(temp,final):
+    if not final:
+        compareValue=0.7
+    if final:
+        compareValue=0.5
+    
     newTemp={}
-    flag=False
+   
     for key,value in temp.iteritems():
        for nkey,nvalue in temp.iteritems():
-           if (jaccard(key,nkey)>=0.7):
+           flag=False
+           if (jaccard(key,nkey)>=compareValue):
                continue
            else:
                """
@@ -193,34 +190,24 @@ def removeDuplicates(temp):
                if nkey not in newTemp:
                    if newTemp:
                        for i in newTemp:
-                           if(jaccard(i,nkey)>=0.7):
+                           if(jaccard(i,nkey)>=compareValue):
                                flag=True
                        if not flag:
                            newTemp[nkey]=nvalue
                    else:
                         newTemp[nkey]=nvalue
+    if final:
+        print "___________final___________"
+        return newTemp
     if not newTemp:
+        print "___________not____final___________"
         v=list(temp.values()) #list of scores of sentences
         newTemp[list(temp.keys())[v.index(max(v))]]=max(v) # [v.index(max(v)) will return index of score having maximum value use this to get the sentence from the list of sentecnces
     return newTemp
     
-# Function to calculate average path score...for collapse function        
-def averagePathScore(temp):
-    return numpy.mean(temp.values())
     
+        
     
-    
-def Stich(ccAnchor,cc):
-    if len(cc) == 1:
-        return cc.keys()[0]
-    return " xx ".join(cc.keys())
-    sents = cc.keys()
-    anchor_str = " ".join(ccAnchor)
-    anchor_len = len(anchor_str)
-    sents = [e[anchor_len:] for e in sents]
-    sents = [e for e in sents if e.strip() != "./." and e.strip() != ",/,"]
-    s = anchor_str + " xx " + " AND ".join(sents)
-    return s + " ."
     
 #Function to Traverse and find valid paths
 def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,collapsed):
@@ -296,7 +283,7 @@ Parameters for the traverse function:
     6. List containing node that will form a sentence
     7. Count...temp parameter to control iterations  
 """
-
+candidateSummaries={}
 for Nnode,Ndata in G.nodes(data=True):   
     
     if(VSN(Nnode,Ndata['PRI'])):
@@ -311,5 +298,12 @@ for Nnode,Ndata in G.nodes(data=True):
         PRIoverlap=Ndata['PRI']
         Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,False)
         if cList:
-            TempList=removeDuplicates(cList)
-            print TempList
+            TempList=removeDuplicates(cList,False)
+            for key,value in TempList.iteritems():
+                candidateSummaries[key]=value
+
+candidateSummaries=removeDuplicates(candidateSummaries,True)
+final=[key for key,value in candidateSummaries.iteritems() if value>=8.2]
+print candidateSummaries
+
+print "This the summary \n", final       
