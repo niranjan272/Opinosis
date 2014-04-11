@@ -28,7 +28,7 @@ Functions :
 #Function to create graph
 def CreateGraph():
     tagger=nltk.data.load('POSTrainedTagger.pickle')
-    InputFilePointerNodes=open("/home/shek/my_repo/opnosis/newoutput","r")
+    InputFilePointerNodes=open("/home/shek/my_repo/sas","r")
     InputNodeData=InputFilePointerNodes.readlines()
     #NODES    
     for DataLineNode in InputNodeData:
@@ -48,7 +48,8 @@ def CreateGraph():
             i=i+2
         G.add_node(NodeList[0],PRI=FinalList,pos_tag=StrTag)
     
-    InputPicklePointerRelationship=open('/home/shek/my_repo/opnosis/edge_strength_output.txt','rb')
+    #print G.nodes()
+    InputPicklePointerRelationship=open('/home/shek/my_repo/edge_strength_output.txt','rb')
     InputPickleData = pickle.load(InputPicklePointerRelationship)
 
     #RELATIONSHIPS
@@ -197,10 +198,10 @@ def removeDuplicates(temp,final):
                    else:
                         newTemp[nkey]=nvalue
     if final:
-        print "___________final___________"
+        #print "___________final___________"
         return newTemp
     if not newTemp:
-        print "___________not____final___________"
+        #print "___________not____final___________"
         v=list(temp.values()) #list of scores of sentences
         newTemp[list(temp.keys())[v.index(max(v))]]=max(v) # [v.index(max(v)) will return index of score having maximum value use this to get the sentence from the list of sentecnces
     return newTemp
@@ -210,7 +211,7 @@ def removeDuplicates(temp,final):
     
     
 #Function to Traverse and find valid paths
-def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,collapsed):
+def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,AND):
     
     if len(sentence) > 20:
         return
@@ -225,7 +226,10 @@ def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,collapsed):
                 return
                 
                 
-    for neighbor in G.successors(Nnode) :
+    for neighbor in G.successors(Nnode):
+        if AND:
+            return
+
         #print "\n THis is neighbour====>", neighbor       
         
         #print "\nThis is overallPRI----> ", PRIoverlap     
@@ -236,27 +240,12 @@ def Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,collapsed):
         if(redundancy>0):  
             new_sentence = sentence[:]
             new_sentence.append(neighbor)
-            new_score=score+pathScore(redundancy,len(new_sentence))
-#            if collapsible(neighbor) and not collapsed:
-#                ccAnchor=new_sentence
-#                anchorScore=new_score + pathScore(redundancy, len(new_sentence)+1)
-#                temp={}
-#                for vx in G.successors(neighbor):
-#                    vxPRI=getPRI(neighbor)
-#                    vxNewPRI= intersect(PRInew,vxPRI)
-#                    vxSentence = new_sentence[:]
-#                    vxSentence.append(vx)
-#                    Traverse(temp,vx,anchorScore,vxPRI,vxNewPRI,vxSentence,count,True)
-#                    if temp:     
-#                        temp=removeDuplicates(temp)
-#                        ccPathScore = averagePathScore(temp)
-#                        finalScore = float(anchorScore)/len(new_sentence) + ccPathScore
-#                        StichedSent=Stich(ccAnchor,temp)
-#                        #print "This is StichedSent--->",StichedSent
-#                        cList[StichedSent]=finalScore
-#            else:
-            Traverse(cList,neighbor,new_score,PRIneighbor,PRInew,new_sentence,count,False)
-                    
+            new_score =score+pathScore(redundancy,len(new_sentence))
+            if (neighbor==Nnode):
+                Traverse(cList,neighbor,new_score,PRIneighbor,PRInew,new_sentence,count,True)
+            else:            
+                Traverse(cList,neighbor,new_score,PRIneighbor,PRInew,new_sentence,count,False)
+
 
 #function to calculate jaccard index
 def jaccard(a, b):
@@ -299,6 +288,7 @@ for Nnode,Ndata in G.nodes(data=True):
         Traverse(cList,Nnode,score,NodePRI,PRIoverlap,sentence,count,False)
         if cList:
             TempList=removeDuplicates(cList,False)
+            #print TempList
             for key,value in TempList.iteritems():
                 candidateSummaries[key]=value
 
