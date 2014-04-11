@@ -27,15 +27,21 @@ for i, line in enumerate(review_files,start=1):
     bigram = zip(words1, words2)
     edges.extend(bigram)
     for j,word in enumerate(words,start=1):
-        nodes_pri[word].append([i,j])
+        nodes_pri[word].append((i,j))
 
-
+prifile=open("/home/shek/my_repo/sas",'w')
 for key,value in  nodes_pri.iteritems():
-    G.add_node(key,PRI=value)
+    value=str(value)
+    value=value.rstrip(']')
+    value=value.lstrip('[')
+    value=value.replace(" ","")
+    prifile.writelines(key+"\t"+value+"\n")
 
-for bigram in edges:
-    G.add_edge(bigram[0],bigram[1])
+x=open("/home/shek/my_repo/rel",'w')
+for From,To in edges:
+    x.writelines(From+"\t"+To+"\n")
 
 
-print G.nodes(data=True)
-print G.edges()
+
+prifile.close()
+x.close()
