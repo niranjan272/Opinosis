@@ -13,10 +13,10 @@
 """
 import pickle
 arr=[]
-input_file=open("/home/shek/Project/edgelist.txt","r")
+input_file=open("/home/shek/my_repo/rel","r")
 data_line=input_file.readlines()
 
-output_file=open("/home/shek/Project/edge_strength_output.txt","w")
+output_file=open("/home/shek/my_repo/edge_strength_output.txt","w")
 for line in data_line:
 	flag=0
 	line=line.strip()
