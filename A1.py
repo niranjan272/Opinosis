@@ -11,8 +11,11 @@ A1-1
 from collections import defaultdict
 import pickle
 
-def A1():
-    review_files=open("/home/shek/my_repo/speed_windows7.txt.data",'r')
+
+
+def A1(product):
+    productPath="/home/shek/my_repo/data/"+product+".txt.data"
+    review_files=open(productPath,'r')
     edges = []
     nodes_pri = defaultdict(list)
     for i, line in enumerate(review_files,start=1):

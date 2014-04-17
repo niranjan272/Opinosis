@@ -12,7 +12,7 @@ import re
 import numpy
 import shlex
 import A1
-
+import sys
 from multiprocessing import Pool
 
 """
@@ -275,7 +275,7 @@ Main
 
 """
   
-A1.A1()  
+A1.A1(sys.argv[1])  
 CreateGraph()
 
 
