@@ -11,6 +11,7 @@ import networkx as nx
 import re
 import numpy
 import shlex
+import A1
 
 """
 Global declarations
@@ -254,11 +255,23 @@ def jaccard(a, b):
     c = a.intersection(b)
     return float(len(c)) / (len(a) + len(b) - len(c))
 
+
+def removeExtras(Sent):
+    k=Sent
+    m=0   
+    for i in k:
+        if i=='as':
+            m=m+1
+        if m==2:
+            return None
+    return k
+
 """
 Main
 
 """
     
+A1.A1()
 CreateGraph()
 
 
@@ -272,6 +285,8 @@ Parameters for the traverse function:
     6. List containing node that will form a sentence
     7. Count...temp parameter to control iterations  
 """
+
+
 candidateSummaries={}
 for Nnode,Ndata in G.nodes(data=True):   
     
@@ -279,7 +294,6 @@ for Nnode,Ndata in G.nodes(data=True):
         #print "THis is valid start node==>>", Nnode        
         count=count+1        
         pathLen=1  #pathlen removed from parameters coz it can be calculated by using the len of list function
-        G.nodes()
         score=0
         cList={}
         sentence = [Nnode]
@@ -293,7 +307,9 @@ for Nnode,Ndata in G.nodes(data=True):
                 candidateSummaries[key]=value
 
 candidateSummaries=removeDuplicates(candidateSummaries,True)
-final=[key for key,value in candidateSummaries.iteritems() if value>=8.2]
-print candidateSummaries
+res = list(sorted(candidateSummaries, key=candidateSummaries.__getitem__, reverse=True))  
 
-print "This the summary \n", final       
+res=removeExtras(res)
+
+res=[i for i in res if i!= None]
+print "This is the final summary \n",res[:5]      
